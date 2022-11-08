@@ -1,0 +1,160 @@
+body{
+    background-color: #F5F5FA;
+}
+.top-nav{
+    background-color: #E9EAEC;
+    padding-left: 9%;
+    padding-right: 6%;
+}
+.top-nav a{
+    color: #016600;
+    font-size: 0.8em;
+}
+.logo-search-cart{
+    padding: 1% 6% 1% 9%;
+    background-image: linear-gradient(to right, rgb(218, 61, 61) , rgba(199, 199, 15, 0.897));
+}
+.logo-search-cart h3{
+    padding-top: 5%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(10, 34, 14);
+}
+.search-cart{
+    margin-left: 8%;
+    display: flex;
+    padding-top: 3.5%;
+}
+.search{
+    margin-right: 10%;
+}
+.search input{
+    float: left;
+    border: none;
+    width: 170px;
+}
+.search button{
+    border: none;
+    background-color: white;  
+}
+.cart{
+    position: relative;
+}
+.fa-shopping-cart{
+    color: rgb(165, 12, 12);
+}
+#in-cart{
+    position: absolute;
+    top: 18px;
+    left: 30px;
+    font-size: 1.4em;
+}
+.main-nav{
+    background: url('http://nhanam.com.vn/Content/images2/menubg.png');
+    padding-left: 15%;
+    padding-right: 12%;
+}
+.main-nav h4, .main-nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.main-nav>div:hover{
+    background-color: #033801;
+}
+.main-nav ul>li>a{
+    background-color: #033801;
+    color: white;
+    border-bottom: 1px solid rgb(149, 177, 93);
+}
+.main-nav ul>li>a:hover{
+    background: url('http://nhanam.com.vn/Content/images2/menubg.png');
+    color: white;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+}
+.container {
+    background-color: white;
+}
+.book{
+    margin-top: 2%;
+    margin-bottom: 1%;
+    position: relative;
+    height: 300px;
+    padding-top: 10px;
+}
+.book > p{
+    font-size: 1.1em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-right: 20px;
+}
+.book > h5{
+    color: red;
+    font-weight: bold;
+}
+.pop-up{
+    display: none;
+    position: absolute;
+    text-align: center;
+    background-color: rgb(224, 213, 215);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 60%;
+    bottom: -40px;
+    left: 120px;
+}
+.pop-up > a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid black;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    background-color: #0F703D;
+}
+.book:hover{
+    box-shadow: 20px 20px 70px grey;
+}
+.book:hover .pop-up{
+    display: block;
+}
+.bot-nav{
+    background-color: white;
+    padding-left: 10%;
+    height: 120px;
+}
+.bot-nav ul{
+    list-style: url('http://nhanam.com.vn/Content/images2/arricon.png');
+    padding-top: 20px;
+}
+.bot-nav ul>li{
+    border-bottom: 1px solid springgreen;
+    margin-bottom: 20px;
+}
+.bot-nav ul>li>a{
+    color: rgb(51, 42, 42);
+    font-size: 1.3em;
+}
+.fa-facebook-square{
+    color: blueviolet;
+}
+.fa-youtube{
+    color: red;
+}
+.fa-instagram{
+    color: yellowgreen;
+}
+.copyright{
+    background-color: #8484cc;
+    color: rgb(41, 41, 88);
+}
+.copyright p{
+    line-height: 1.2em;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
